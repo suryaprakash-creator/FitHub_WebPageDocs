@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Afacad:ital,wght@0,400..700;1,400..700&family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Afacad:ital,wght@0,400..700;1,400..700&family=Boldonse&family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Afacad:ital,wght@0,400..700;1,400..700&family=Amarante&family=Boldonse&family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Afacad:ital,wght@0,400..700;1,400..700&family=Aladin&family=Amarante&family=Boldonse&family=Play:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Afacad:ital,wght@0,400..700;1,400..700&family=Aladin&family=Amarante&family=Arizonia&family=Boldonse&family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     
+    <div class="navbar">
+        <nav>
+            <h1>FitHub</h1>
+            <ul>
+                <li>Creatine |</li>
+                <li>Whey |</li>
+                <li>FishOil |</li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div class="searchbar">
+        <input placeholder="search">
+    </div>
+    <div class="screen">
+    
+        <div class="box">
+        <div>
+            <img src="GNC Creatine Monohydrate (Unflavored).jpg" alt="gnc creatine">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">GNC-Creatine (250g, 83 servings)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 1499</S></h4>
+            <h3 style="font-weight:700"> price: ₹1349</h3>
+            <button onclick="addToCart('GNC-Creatine (250g, 83 servings)', 1349 , 'GNC Creatine Monohydrate (Unflavored).jpg')" class="btn">Add To Kart</button>
+        </div>
+    </div>
+
+     <div class="box1">
+        <div>
+            <img src="High Creatinine Levels Treatment__.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Wellcore Creatine(100g,33 servings)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 728</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 538</h3>
+            <button onclick="addToCart('Wellcore Creatine(100g,33 servings)', 538 , 'High Creatinine Levels Treatment__.jpg')" class="btn">Add To Kart</button>
+        </div>
+    </div>
+
+    
+     <div class="box1">
+        <div>
+            <img src="MuscleBlaze Fuel One.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Muscleblaze Whey Protein(1kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 4049</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 1999</h3>
+            <button onclick="addToCart('Muscleblaze Whey Protein(1kg)', 1999 , 'MuscleBlaze Fuel One.jpg')" class="btn">Add To Kart</button>
+
+        </div>
+    </div>
+
+      <div class="box1">
+        <div>
+            <img src="MuscleBlaze High Protein Peanut Butter & Whey Protein Concentrate, Crunchy, 27 G Protein.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Muscleblaze High Protein Peanut</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 739</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 549</h3>
+            <button onclick="addToCart('Muscleblaze High Protein Peanut', 549 , 'MuscleBlaze High Protein Peanut Butter & Whey Protein Concentrate, Crunchy, 27 G Protein.jpg')" class="btn">Add To Kart</button>
+
+        </div>
+    </div>
+
+      <div class="box1">
+        <div>
+            <img src="Optimum Nutrition Gold Standard 100% Whey Protein Powder, Double Rich Chocolate, 5 Pound (Packaging May Vary).jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">OptimumNutrition Whey Protein(2.27kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 8999</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 7784</h3>
+            <button onclick="addToCart('OptimumNutrition Whey Protein(2.27kg)', 7784 , 'Optimum Nutrition Gold Standard 100% Whey Protein Powder, Double Rich Chocolate, 5 Pound (Packaging May Vary).jpg')"class="btn">Add To Kart</button>
+
+        </div>
+    </div>
+
+      <div class="box1">
+        <div>
+            <img src="MuscleBlaze Whey Gold, 100% Whey Protein Isolate, Labdoor USA Certified, 30g Whey Protein Per Sco___.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Muscleblaze Whey Protein(1kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 4129</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 2949</h3>
+            <button onclick="addToCart('Muscleblaze Whey Protein(1kg)', 2949 , 'MuscleBlaze Whey Gold, 100% Whey Protein Isolate, Labdoor USA Certified, 30g Whey Protein Per Sco___.jpg')"class="btn">Add To Kart</button>
+
+        </div>
+    </div>
+
+      <div class="box1">
+        <div>
+            <img src="Omega 3 Fish Oil Gold 1250mg, Triple Strength Formula (560mg EPA & 400mg DHA).jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Muscleblaze Fishoil</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 1049</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 827</h3>
+            <button onclick="addToCart('Muscleblaze Fishoil', 827 , 'Omega 3 Fish Oil Gold 1250mg, Triple Strength Formula (560mg EPA & 400mg DHA).jpg')"class="btn">Add To Kart</button>
+
+        </div>
+    </div>
+
+     <div class="box1">
+        <div>
+            <img src="Omega 3 Fish Oil Supplement – 2400mg Fish Oil with EPA & DHA Omega-3 Fatty Acids from Sustainably Sourced Wild Caught Peruvian Anchovy - Heart & Brain Health Support - Non-GMO - 60 Softgels.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">NATURE Fishoil</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 799</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 642</h3>
+            <button onclick="addToCart('NATURE Fishoil', 642 , 'Omega 3 Fish Oil Supplement – 2400mg Fish Oil with EPA & DHA Omega-3 Fatty Acids from Sustainably Sourced Wild Caught Peruvian Anchovy - Heart & Brain Health Support - Non-GMO - 60 Softgels.jpg')"class="btn">Add To Kart</button></div>
+        </div>
+    
+        <div class="box1">
+        <div>
+            <img src="Creatine Monohydrate Powder MuscleTech Cell-Tech Creatine Post Workout Recovery Drink Muscle Builder For Men & Women Muscle Building Supplements Fruit Punch, 3 lbs (27 Serv).jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Muscletech Creatine(1.36kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 5999</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 3999</h3>
+            <button onclick="addToCart('Muscletech Creatine(1.36kg)', 3999 , 'Creatine Monohydrate Powder MuscleTech Cell-Tech Creatine Post Workout Recovery Drink Muscle Builder For Men & Women Muscle Building Supplements Fruit Punch, 3 lbs (27 Serv).jpg')" class="btn">Add To Kart</button></div>
+        </div>
+
+        
+        <div class="box2">
+        <div>
+            <img src="BSN Nutrition Protein Powder Syntha 6 Edge Low Carb and Sugar Whey Protein Shake with Whey Protein Isolate and BCAAs, Muscle Gain Powder, Vanilla Ice Cream Flavour, 48 Servings, 1_87 kg.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Syntha-6 Whey Protein(2.26kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 9999</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 8999</h3>
+            <button onclick="addToCart('Syntha-6 Whey Protein(2.26kg)', 8999 , 'BSN Nutrition Protein Powder Syntha 6 Edge Low Carb and Sugar Whey Protein Shake with Whey Protein Isolate and BCAAs, Muscle Gain Powder, Vanilla Ice Cream Flavour, 48 Servings, 1_87 kg.jpg')" class="btn">Add To Kart</button></div>
+        </div>
+
+         <div class="box1">
+        <div>
+            <img src="Bbetter Omega 3 Fish Oil Capsules 60 Softgels Fsw.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">B Better Fishoil</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 579</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 499</h3>
+            <button onclick="addToCart('B Better Fishoil', 499 , 'Bbetter Omega 3 Fish Oil Capsules 60 Softgels Fsw.jpg')" class="btn">Add To Kart</button></div>
+        </div>
+        
+        
+         <div class="box2">
+        <div>
+            <img src="Isopure Protein Powder, Zero Carb Whey Isolate with Vitamin C & Zinc for Immune Support, 25g Protein, Keto Friendly, Banana Cream, 44 Servings, 3 Pounds (Packaging May Vary).jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Isopure Whey Protein(1.36kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 8249</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 6999</h3>
+            <button onclick="addToCart('Isopure Whey Protein(1.36kg)', 6999 , 'Isopure Protein Powder, Zero Carb Whey Isolate with Vitamin C & Zinc for Immune Support, 25g Protein, Keto Friendly, Banana Cream, 44 Servings, 3 Pounds (Packaging May Vary).jpg')" class="btn">Add To Kart</button>
+        </div>
+        </div>
+
+        <div class="box2">
+        <div>
+            <img src="multipower.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Multipower Whey Protein</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 5249</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 4999</h3>
+            <button onclick="addToCart('Multipower Whey Protein', 4999 , 'multipower.jpg')" class="btn">Add To Kart</button></div>
+        </div>
+
+        <div class="box1">
+        <div>
+            <img src="Avvatar.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Avvatar Whey Protein(2kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 5139</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 4949</h3>
+            <button onclick="addToCart('Avvatar Whey Protein(2kg)', 4949 , 'Avvatar.jpg')" class="btn">Add To Kart</button></div>
+        </div>
+
+        
+        <div class="box2">
+        <div>
+            <img src="BPI Protein- NEW ‘Best’ Protein!.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">bpi Whey Protein(2kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 5249</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 4999</h3>
+            <button onclick="addToCart('bpi Whey Protein(2kg)', 4999 , 'BPI Protein- NEW ‘Best’ Protein!.jpg')" class="btn">Add To Kart</button></div>
+        </div>
+
+        <div class="box2">
+        <div>
+            <img src="Dymatize Super Mass Gainer Protein Powder, 1280 Calories & 52g Protein, Gain Strength & Size Quickly.jpg" alt="wellcore">
+        </div>
+        <div class="desc">
+            <h3 style="padding-left:10px;font-size:14px;">Dymatize Whey Protein(2.7kg)</h3>
+            <h4 style="padding-top:5px;">MRP: <S style="text-decoration:line-throgh;">₹ 3499</S></h4>
+            <h3 style="font-weight:700"> price: ₹ 2799</h3>
+            <button onclick="addToCart('Dymatize Whey Protein(2.7kg)', 2799, 'Dymatize Super Mass Gainer Protein Powder, 1280 Calories & 52g Protein, Gain Strength & Size Quickly.jpg')"class="btn">Add To Kart</button></div>
+        </div>
+    </div>
+
+
+  <div class="cart">
+    <h2 style="padding-left:120px;padding-top:20px;">Your Kart</h2>
+    <div id="cartItems"></div>
+    <p style="padding-left:60px;"><strong>Total: ₹ <span id="totalAmount">0</span></strong></p>
+  </div>
+
+    <script>
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    function addToCart(name, price, image) {
+      const existing = cart.find(item => item.name === name);
+      if (existing) {
+        existing.quantity += 1;
+      } else {
+        cart.push({ name, price, image, quantity: 1 });
+      }
+      saveCart();
+      displayCart();
+      alert(`${name} added to the cart!`);
+    }
+
+    function removeFromCart(name) {
+      cart = cart.filter(item => item.name !== name);
+      saveCart();
+      displayCart();
+    }
+
+    function saveCart() {
+      localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
+    function displayCart() {
+      const cartItems = document.getElementById('cartItems');
+      const totalAmount = document.getElementById('totalAmount');
+      cartItems.innerHTML = '';
+      let total = 0;
+
+      cart.forEach(item => {
+        const itemTotal = item.price * item.quantity;
+        total += itemTotal;
+
+        const div = document.createElement('div');
+        div.className = 'cart-item';
+        div.innerHTML = `
+          <img src="${item.image}" alt="${item.name}">
+          <span><strong>${item.name}</strong></span>
+          <span>Qty: ${item.quantity}</span>
+          <span>Price: ₹${item.price}</span>
+          <span>Total: ₹${itemTotal}</span>
+          <button class="remove-btn" onclick="removeFromCart('${item.name}')">Remove</button>
+        `;
+        cartItems.appendChild(div);
+      });
+
+      totalAmount.textContent = total.toFixed(2);
+    }
+
+    // Initial load
+    displayCart();
+  </script>
+    
+</body>
+</html>

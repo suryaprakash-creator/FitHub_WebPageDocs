@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+    padding-top: 20px;
+}
+.navy{
+      font-family: "Aladin", system-ui;
+      font-weight: 400;
+      font-style: normal;
+}
+ul,li,h1{
+    display:inline;
+    
+}
+p{
+    font-style: Lora;
+}
+ul{
+    padding:70%;
+}
+h1{
+    padding:10px;
+}
+li:hover{
+    cursor:pointer;
+    color:aqua;
+}
+.searchbar{
+    margin-top:20px;
+    padding-left:20%;
+    
+}
+input{
+    height:40px;
+    width:750px;
+    padding-left:10px;
+    
+}
+img{
+    height: 250px;
+    width: 270px;
+}
+.boss{
+    margin-top:20px;
+    margin-left:20px;
+    width:1400px;
+    display:flex;
+
+}
+.container1{
+    border-color:black;
+    border-style:solid;
+    border-radius:30px;
+    background-color:black;
+
+}
+.cont1 img{
+    height:380px;
+    width:380px;
+    border-radius:31px;
+}
+.container2{
+    margin-left:30px;
+    border-color:black;
+    border-style:solid;
+    border-radius:30px;
+    background-color:black;
+
+}
+.cont2 img{
+    height:380px;
+    width:380px;
+    border-radius:31px;
+}
+
+.container3{
+    margin-left:30px;
+    border-color:black;
+    border-style:solid;
+    border-radius:30px;
+    background-color:black;
+
+}
+.cont3 img{
+    height:380px;
+    width:380px;
+    border-radius:31px;
+}
+.container1:hover , .container2:hover , .container3:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+
+}
+.des p{
+      font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.topic{
+    padding-left:500px;
+     font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.boxx{
+    margin-top:40px;
+    width:1500px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.card{
+    margin-left:30px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+}
+.card-image{
+  padding:10px;
+
+}
+.card1{
+    margin-left:30px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+}
+
+.card2{
+    margin-left:30px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+}
+
+
+
+.card:hover,.card1:hover,.card2:hover{
+    transform:scale(1.02);
+    cursor:pointer;
+}
+
+.cards{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+}
+.cards1{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards1:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+}
+.cards1.cards1-image img{
+    height: 200px;
+    width: 150px;
+}
+.cards2{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards2:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+}
+.cards3{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards3:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+}
+.cards4{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards4:hover{
+    cursor:pointer;
+    transform:scale(1.02);
+}
+.cards5{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards5:hover{
+     cursor:pointer;
+    transform:scale(1.02);
+}
+.cards6{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards6:hover{
+     cursor:pointer;
+    transform:scale(1.02);
+}
+.cards7{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards7:hover{
+     cursor:pointer;
+    transform:scale(1.02);
+}
+.cards8{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards8:hover{
+     cursor:pointer;
+    transform:scale(1.02);
+}
+.cards9{
+    margin-top:50px;
+    margin-left:60px;
+    background:#f4f7f8;
+    padding:20px;
+    border-radius:30px;
+    border-style:solid;
+    border-color:black;
+    display:inline-block;
+    box-shadow:0 0 30px;
+
+}
+.cards9:hover{
+     cursor:pointer;
+    transform:scale(1.02);
+}
+
+.screen{
+    width: 1500px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.box ,.box1, .box2{
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    width:300px;
+    margin-top:30px;
+    margin-left:15px;
+    height: 400px;
+   
+}
+.box img, .box1 img{
+    height: 250px;
+    width: 250px;
+    padding-left:25px;
+}
+.box2 img{
+    height:250px;
+    width:200px;
+    padding-left:45px;
+}
+
+.box img:hover{
+    cursor:pointer;
+    
+}
+.box1 img:hover{
+    cursor:pointer;
+    
+}
+.box2 img:hover{
+    cursor:pointer;
+    
+}
+.box h3,h4{
+    padding-left:30px;
+}
+.box1 h3,h4{
+    padding-left:30px;
+}
+.box2 h3,h4{
+    padding-left:30px;
+}
+.btn{
+    margin-top:15px;
+    margin-left:100px;
+    padding: 10px;
+    font-family: "Boldonse", system-ui;
+    font-weight: 200;
+    font-style: normal; 
+    border-radius:30px;  
+}
+.desc h3,h4 {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.cart{
+    margin-top:50px;
+    margin-left:30px;
+    border-style:solid;
+    border-color:black;
+    border-radius:30px;
+}
+#cartItems{
+    margin-top:20px;
+    margin-left:50px;
+}
+.cart p{
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.cart h2{
+        font-family: "Aclonica", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+}
+.landing{
+    background-image:url('shopping.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.main-text{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    justify-content:center;
+    padding:2em;
+}
+.tagline-1{
+    color:var(--beige-sand);
+    font-size:1.5em;
+    font-weight:bolder;
+}
+.tagline-2{
+    color:var(--beige-sand);
+}
+.main-text div{
+    margin-top:.75em;
+}
+.bts:hover{
+    cursor:pointer;
+    color:white;
+    background-color:black;
+    transform:scale(1.02);
+}
+.main-text button{
+    width:20vw;
+    margin-top:1.5em;
+    border-radius:10px;
+    padding:.7em;
+    background-color:green;
+    color:white;
+}
+
+.landings{
+      margin-top:40px;
+      margin-left:5px;
+      display:flex;
+      flex-wrap:wrap;
+}
+.landings img{
+    border-radius:30px;
+    height:500px;
+    width:1250px;
+}
+.landings div{
+    margin-top:100px;
+}
+
+li {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.amarante{
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav h1{
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    transform:scale(1.02);
+}
+
+
+
+.arizonia-regular {
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

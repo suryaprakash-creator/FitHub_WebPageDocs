@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Tracker - Running Distance</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>🏃 Fitness Tracker: Daily Running Distance</h2>
+    <form id="runForm" onsubmit="addData(event)">
+        <label>Date: <input type="date" id="runDate" required></label>
+        <label>Distance (km): <input type="number" id="runDistance" step="0.1" required></label>
+        <button type="submit">Add Entry</button>
+    </form>
+
+    <canvas id="runChart" width="600" height="300"></canvas>
+
+    <script>
+        const runDates = [];
+        const runDistances = [];
+
+        const ctx = document.getElementById('runChart').getContext('2d');
+        const runChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: runDates,
+                datasets: [{
+                    label: 'Running Distance (km)',
+                    data: runDistances,
+                    borderColor: 'green',
+                    borderWidth: 2,
+                    fill: false,
+                    tension: 0.2
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Date'
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Distance (km)'
+                        }
+                    }
+                }
+            }
+        });
+
+        function addData(event) {
+            event.preventDefault();
+            const date = document.getElementById('runDate').value;
+            const distance = parseFloat(document.getElementById('runDistance').value);
+
+            if (date && !isNaN(distance)) {
+                runDates.push(date);
+                runDistances.push(distance);
+                runChart.update();
+                document.getElementById('runForm').reset();
+            }
+        }
+    </script>
+
+</body>
+</html>
